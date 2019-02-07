@@ -1,6 +1,8 @@
 Boolean Tic = false;
 
 void Usercode() {
+  
+//left
   if (mouseX>width*5.1/15 && mouseX<width*6.55/15 && mouseY>height*9.3/25 && mouseY<height*10.2/21) { //left box 1
     fill(255);
     rect(width*5.5/16, height*6/16, width*1.5/16, width*1.5/16);
@@ -24,7 +26,16 @@ void Usercode() {
     fill(0);
     rect(width*5.5/16, height*9.55/16, width*1.5/16, width*1.5/16);
   }
-  //a
+  
+  
+ //Mid.
+   if (mouseX>width*5.1/15 && mouseX<width*6.55/15 && mouseY>height*9.3/25 && mouseY<height*10.2/21) { //mid box 1  working
+    fill(255);
+    rect(width*5.5/16, height*6/16, width*1.5/16, width*1.5/16);
+  } else {
+    fill(0);
+    rect(width*5.5/16, height*6/16, width*1.5/16, width*1.5/16);
+  }
 }
 
 void UsermouseClicked() {
