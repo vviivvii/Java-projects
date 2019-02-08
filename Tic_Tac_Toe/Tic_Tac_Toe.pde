@@ -5,6 +5,7 @@ void setup() {
 
 void draw() {
   Usercode();
+  NPCCode();
 }
 
 void mouseClicked() {
