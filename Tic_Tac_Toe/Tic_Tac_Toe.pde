@@ -7,6 +7,7 @@ void draw() {
 
   Usercode();
   NPCCode();
+  println("NPC going to pick " + NPCGameOne);
   mix();
 }
 
