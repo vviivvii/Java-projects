@@ -1,6 +1,10 @@
+Boolean reset = false;
+
 void setup() {
   size(700, 600);
+  reset();
   UserGUIsetup();
+  scoreboard();
 }
 
 void draw() {
@@ -17,4 +21,5 @@ void mouseClicked() {
     //println(NewGame); //For testing
   }
   UsermouseClicked();
+  resetmouseClicked();
 }

@@ -10,9 +10,16 @@ int Gamethree = 10;
 
 void Usercode() {
   if (NewGame == true) {
-    fill(31,188,216);
+    fill(31, 188, 216);
     rect(width*0, height*0, width*1, height*1);
-    
+
+    if (mouseX>width*6.5/15 && mouseX<width*8.55/15 && mouseY>height*20.2/25 && mouseY<height*19/21) { //Play again
+      fill(255);
+      rect(width*6.7/16, height*13/16, width*2.2/16, height*1.5/16);
+    } else {
+      fill(255, 0, 0);
+      rect(width*6.7/16, height*13/16, width*2.2/16, height*1.5/16);
+    }
     //left
     if (mouseX>width*5.1/15 && mouseX<width*6.55/15 && mouseY>height*9.3/25 && mouseY<height*10.2/21) { //left box 1
       fill(255);

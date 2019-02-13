@@ -67,59 +67,59 @@ void NPCCode() {
   }
   //round 2
   if (Playerpickedagain == true) {
-    mix = true;
+    mixtwo = true;
     println("NPC " + NPCGameOne); //For testing
     println("User " + Gameone);
-    if (ready == true) {
-      if (NPCGameOne == z) {
+    if (readyup == true) {
+      if (NPCGameTwo == z) {
         image(O, width*5.5/16, height*6/16, width*1.5/16, width*1.5/16);
         ready = false;
         Roundthree = true;
         Roundtwo = false;
       }
-      if (NPCGameOne == a ) {
+      if (NPCGameTwo == a ) {
         image(O, width*5.5/16, height*7.777/16, width*1.5/16, width*1.5/16);
         ready = false;
         Roundthree = true;
         Roundtwo = false;
       }
-      if (NPCGameOne == b ) {
+      if (NPCGameTwo == b ) {
         image(O, width*5.5/16, height*9.55/16, width*1.5/16, width*1.5/16);
         ready = false;
         Roundthree = true;
         Roundtwo = false;
       }
-      if (NPCGameOne == c ) {
+      if (NPCGameTwo == c ) {
         image(O, width*7/16, height*6/16, width*1.5/16, width*1.5/16);
         ready = false;
         Roundthree = true;
         Roundtwo = false;
       }
-      if (NPCGameOne == d ) {
+      if (NPCGameTwo == d ) {
         image(O, width*7/16, height*7.777/16, width*1.5/16, width*1.5/16);
         ready = false;
         Roundthree = true;
         Roundtwo = false;
       }
-      if (NPCGameOne == e ) {
+      if (NPCGameTwo == e ) {
         image(O, width*7/16, height*9.55/16, width*1.5/16, width*1.5/16);
         ready = false;
         Roundthree = true;
         Roundtwo = false;
       }
-      if (NPCGameOne == f ) {
+      if (NPCGameTwo == f ) {
         image(O, width*8.5/16, height*6/16, width*1.5/16, width*1.5/16);
         ready = false;
         Roundthree = true;
         Roundtwo = false;
       }
-      if (NPCGameOne == g ) {
+      if (NPCGameTwo == g ) {
         image(O, width*8.5/16, height*7.777/16, width*1.5/16, width*1.5/16);
         ready = false;
         Roundthree = true;
         Roundtwo = false;
       }
-      if (NPCGameOne == h ) {
+      if (NPCGameTwo == h ) {
         image(O, width*8.5/16, height*9.55/16, width*1.5/16, width*1.5/16);
         ready = false;
         Roundthree = true;
