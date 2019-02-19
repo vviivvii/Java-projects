@@ -1,4 +1,4 @@
-//int NPCGameOne = int(random(9));
+//int NPCGameOne = int(random(9)); // Change for the random
 //int NPCGameTwo = int(random(9));
 //int NPCGameThree = int(random(9));
 Boolean WinorLose = false;
