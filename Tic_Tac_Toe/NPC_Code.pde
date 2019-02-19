@@ -195,7 +195,7 @@ void NPCCode() {
 }
 
 void WinorLose () {
-  if (WinorLose == true );
+  if (WinorLose == true ); // Bug
   println (Gameone);
   println (Gametwo);
   println (Gamethree);
