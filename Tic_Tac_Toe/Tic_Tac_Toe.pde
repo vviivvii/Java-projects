@@ -11,7 +11,7 @@ void draw() {
 
   Usercode();
   NPCCode();
-  println("NPC going to pick " + NPCGameOne);
+  //println("NPC going to pick " + NPCGameOne);
   mix();
 }
 

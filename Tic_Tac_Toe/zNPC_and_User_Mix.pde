@@ -71,121 +71,118 @@ void mix () {
   }
 }
 
-void WinorLose () {
-  if (WinorLose == true );
-  if (Gameone == z  || Gametwo == a || Gamethree == b) {
-    Userwon = (+1);
-  }
-}
+
 
 void reset () {
-  int NPCreset = int(random(9));
-  int NPCreset2 = int(random(9));
-  int NPCreset3 = int(random(9));
-  println("User have won " + Userwon + " time");
-  println("NPC have won " + NPCwon + " time");
-  if (NPCreset == z) {
-    NPCGameOne = (0);
-  }
-  if (NPCreset == a) {
-    NPCGameOne = (1);
-  }
-  if (NPCreset == b) {
-    NPCGameOne = (2);
-  }
-  if (NPCreset == c) {
-    NPCGameOne = (3);
-  }
-  if (NPCreset == d) {
-    NPCGameOne = (4);
-  }
-  if (NPCreset == e) {
-    NPCGameOne = (5);
-  }
-  if (NPCreset == f) {
-    NPCGameOne = (6);
-  }
-  if (NPCreset == g) {
-    NPCGameOne = (7);
-  }
-  if (NPCreset == h) {
-    NPCGameOne = (8);
-  }
+  if (reset == true) {
+    int NPCreset = int(random(9));
+    int NPCreset2 = int(random(9));
+    int NPCreset3 = int(random(9));
+    println("User have won " + Userwon + " time");
+    println("NPC have won " + NPCwon + " time");
+    if (NPCreset == z) {
+      NPCGameOne = (0);
+    }
+    if (NPCreset == a) {
+      NPCGameOne = (1);
+    }
+    if (NPCreset == b) {
+      NPCGameOne = (2);
+    }
+    if (NPCreset == c) {
+      NPCGameOne = (3);
+    }
+    if (NPCreset == d) {
+      NPCGameOne = (4);
+    }
+    if (NPCreset == e) {
+      NPCGameOne = (5);
+    }
+    if (NPCreset == f) {
+      NPCGameOne = (6);
+    }
+    if (NPCreset == g) {
+      NPCGameOne = (7);
+    }
+    if (NPCreset == h) {
+      NPCGameOne = (8);
+    }
 
-  if (NPCreset2 == z) {
-    NPCGameTwo = (0);
-  }
-  if (NPCreset2 == a) {
-    NPCGameTwo = (1);
-  }
-  if (NPCreset2 == b) {
-    NPCGameTwo = (2);
-  }
-  if (NPCreset2 == c) {
-    NPCGameTwo = (3);
-  }
-  if (NPCreset2 == d) {
-    NPCGameTwo = (4);
-  }
-  if (NPCreset2 == e) {
-    NPCGameTwo = (5);
-  }
-  if (NPCreset2 == f) {
-    NPCGameTwo = (6);
-  }
-  if (NPCreset2 == g) {
-    NPCGameTwo = (7);
-  }
-  if (NPCreset2 == h) {
-    NPCGameTwo = (8);
-  }
+    if (NPCreset2 == z) {
+      NPCGameTwo = (0);
+    }
+    if (NPCreset2 == a) {
+      NPCGameTwo = (1);
+    }
+    if (NPCreset2 == b) {
+      NPCGameTwo = (2);
+    }
+    if (NPCreset2 == c) {
+      NPCGameTwo = (3);
+    }
+    if (NPCreset2 == d) {
+      NPCGameTwo = (4);
+    }
+    if (NPCreset2 == e) {
+      NPCGameTwo = (5);
+    }
+    if (NPCreset2 == f) {
+      NPCGameTwo = (6);
+    }
+    if (NPCreset2 == g) {
+      NPCGameTwo = (7);
+    }
+    if (NPCreset2 == h) {
+      NPCGameTwo = (8);
+    }
 
-  if (NPCreset3 == z) {
-    NPCGameThree = (0);
-  }
-  if (NPCreset3 == a) {
-    NPCGameThree = (1);
-  }
-  if (NPCreset3 == b) {
-    NPCGameThree = (2);
-  }
-  if (NPCreset3 == c) {
-    NPCGameThree = (3);
-  }
-  if (NPCreset3 == d) {
-    NPCGameThree = (4);
-  }
-  if (NPCreset3 == e) {
-    NPCGameThree = (5);
-  }
-  if (NPCreset3 == f) {
-    NPCGameThree = (6);
-  }
-  if (NPCreset3 == g) {
-    NPCGameThree = (7);
-  }
-  if (NPCreset3 == h) {
-    NPCGameThree = (8);
-  }
-  //Left
-  fill(255, 0, 0);
-  rect(width*5.5/16, height*6/16, width*1.5/16, width*1.5/16); //box 1
-  rect(width*5.5/16, height*7.777/16, width*1.5/16, width*1.5/16); //box 2
-  rect(width*5.5/16, height*9.55/16, width*1.5/16, width*1.5/16); //box 3
-  //Mid
-  fill(0, 255, 0);
-  rect(width*7/16, height*6/16, width*1.5/16, width*1.5/16); //box 1
-  rect(width*7/16, height*7.777/16, width*1.5/16, width*1.5/16); //box 2
-  rect(width*7/16, height*9.55/16, width*1.5/16, width*1.5/16); //box 3
-  //Right
-  fill(0, 0, 255);
-  rect(width*8.5/16, height*6/16, width*1.5/16, width*1.5/16); //box 1
-  rect(width*8.5/16, height*7.777/16, width*1.5/16, width*1.5/16); //box 2
-  rect(width*8.5/16, height*9.55/16, width*1.5/16, width*1.5/16); //box 3
+    if (NPCreset3 == z) {
+      NPCGameThree = (0);
+    }
+    if (NPCreset3 == a) {
+      NPCGameThree = (1);
+    }
+    if (NPCreset3 == b) {
+      NPCGameThree = (2);
+    }
+    if (NPCreset3 == c) {
+      NPCGameThree = (3);
+    }
+    if (NPCreset3 == d) {
+      NPCGameThree = (4);
+    }
+    if (NPCreset3 == e) {
+      NPCGameThree = (5);
+    }
+    if (NPCreset3 == f) {
+      NPCGameThree = (6);
+    }
+    if (NPCreset3 == g) {
+      NPCGameThree = (7);
+    }
+    if (NPCreset3 == h) {
+      NPCGameThree = (8);
+    }
+    //Left
+    fill(255, 0, 0);
+    rect(width*5.5/16, height*6/16, width*1.5/16, width*1.5/16); //box 1
+    rect(width*5.5/16, height*7.777/16, width*1.5/16, width*1.5/16); //box 2
+    rect(width*5.5/16, height*9.55/16, width*1.5/16, width*1.5/16); //box 3
+    //Mid
+    fill(0, 255, 0);
+    rect(width*7/16, height*6/16, width*1.5/16, width*1.5/16); //box 1
+    rect(width*7/16, height*7.777/16, width*1.5/16, width*1.5/16); //box 2
+    rect(width*7/16, height*9.55/16, width*1.5/16, width*1.5/16); //box 3
+    //Right
+    fill(0, 0, 255);
+    rect(width*8.5/16, height*6/16, width*1.5/16, width*1.5/16); //box 1
+    rect(width*8.5/16, height*7.777/16, width*1.5/16, width*1.5/16); //box 2
+    rect(width*8.5/16, height*9.55/16, width*1.5/16, width*1.5/16); //box 3
 
-  Playerpicked = false;
-  Playerpickedagain = false;
-  Playerpickedandagain = false;
+    Playerpicked = false;
+    Playerpickedagain = false;
+    Playerpickedandagain = false;
+  }
 }
 void scoreboard() {
   fill(255);

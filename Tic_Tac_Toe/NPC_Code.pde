@@ -1,10 +1,10 @@
-int NPCGameOne = int(random(9));
-int NPCGameTwo = int(random(9));
-int NPCGameThree = int(random(9));
+//int NPCGameOne = int(random(9));
+//int NPCGameTwo = int(random(9));
+//int NPCGameThree = int(random(9));
 Boolean WinorLose = false;
-//int NPCGameOne = 3;
-//int NPCGameTwo = 6;
-//int NPCGameThree = 8;
+int NPCGameOne = 3;
+int NPCGameTwo = 6;
+int NPCGameThree = 8;
 
 void NPCCode() {
   if (Playerpicked == true) {
@@ -191,5 +191,27 @@ void NPCCode() {
         WinorLose = true;
       }
     }
+  }
+}
+
+void WinorLose () {
+  if (WinorLose == true );
+  println (Gameone);
+  println (Gametwo);
+  println (Gamethree);
+  if (Gameone == z  || Gametwo == a || Gamethree == b) {
+    Userwon = (+1);
+  }
+  if (Gameone == a || Gametwo == b || Gamethree == z) {
+    Userwon = (+1);
+  }
+  if (Gameone == b  || Gametwo == z || Gamethree == a) {
+    Userwon = (+1);
+  }
+  if (Gameone == z  || Gametwo == d || Gamethree == h) {
+    Userwon = (+1);
+  }
+  if (Gameone == h  || Gametwo == z || Gamethree == d) {
+    Userwon = (+1);
   }
 }
