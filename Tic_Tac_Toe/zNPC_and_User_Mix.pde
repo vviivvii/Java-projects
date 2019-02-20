@@ -71,8 +71,6 @@ void mix () {
   }
 }
 
-
-
 void reset () {
   if (reset == true) {
     int NPCreset = int(random(9));
@@ -186,14 +184,15 @@ void reset () {
 }
 void scoreboard() {
   fill(255);
-  rect(width*13.5/16, height*6/16, width*2/16, width*1.5/16);
+  rect(width*4/16, height*4.6/16, width*8/16, width*1/16);
   fill(0);
-  text("You", width*14.8/16, height*6.8/16);
-  text(Userwon, width*15/16, height*7.4/16);
-  text("Computer", width*13.6/16, height*6.6/16);
-  text("player", width*13.7/16, height*6.9/16);
-  text(NPCwon, width*14/16, height*7.4/16);
+  text("You", width*4.8/16, height*5.2/16);
+  text(Userwon, width*6.1/16, height*5.2/16);
+  text("Computer player", width*8.6/16, height*5.2/16);
+  text(NPCwon, width*11/16, height*5.2/16);
+  fill(255);
 }
+
 
 void resetmouseClicked() {
   if (mouseX>width*6.2/15 && mouseX<width*8.55/15 && mouseY>height*20.2/25 && mouseY<height*19/21) {

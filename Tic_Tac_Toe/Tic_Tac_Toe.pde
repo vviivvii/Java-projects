@@ -3,8 +3,8 @@ Boolean reset = false;
 void setup() {
   size(700, 600);
   reset();
-  UserGUIsetup();
   scoreboard();
+  UserGUIsetup();
 }
 
 void draw() {
@@ -13,6 +13,7 @@ void draw() {
   NPCCode();
   //println("NPC going to pick " + NPCGameOne);
   mix();
+  WinorLose();
 }
 
 void mouseClicked() {
