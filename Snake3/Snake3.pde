@@ -10,8 +10,8 @@ void draw(){
   
 }
 
-void movement() {
-  
+void keyPressed() {
   snakeMovement();
-
+  
+  
 }
