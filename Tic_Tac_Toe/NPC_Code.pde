@@ -1,10 +1,10 @@
-int NPCGameOne = int(random(9)); // Change for the random
-int NPCGameTwo = int(random(9));
-int NPCGameThree = int(random(9));
+//int NPCGameOne = int(random(9)); // Change for the random
+//int NPCGameTwo = int(random(9));
+//int NPCGameThree = int(random(9));
 Boolean WinorLose = false;
-//int NPCGameOne = 3;
-//int NPCGameTwo = 6;
-//int NPCGameThree = 8;
+int NPCGameOne = 3;
+int NPCGameTwo = 6;
+int NPCGameThree = 8;
 
 void NPCCode() {
   if (Playerpicked == true) {
