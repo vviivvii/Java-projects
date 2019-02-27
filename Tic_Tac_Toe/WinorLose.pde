@@ -36,10 +36,28 @@ void WinorLose () {
     if (Gameone == a  || Gametwo == d || Gamethree == g) {
       Userwon = (+1);
     }
+    if (Gameone == d  || Gametwo == g || Gamethree == a) {
+      Userwon = (+1);
+    }
+    if (Gameone == g  || Gametwo == a || Gamethree == d) {
+      Userwon = (+1);
+    }
     if (Gameone == b  || Gametwo == e || Gamethree == h) {
       Userwon = (+1);
     }
+    if (Gameone == e  || Gametwo == h || Gamethree == b) {
+      Userwon = (+1);
+    }
+    if (Gameone == h  || Gametwo == b || Gamethree == e) {
+      Userwon = (+1);
+    }
     if (Gameone == c  || Gametwo == d || Gamethree == e) {
+      Userwon = (+1);
+    }
+    if (Gameone == d  || Gametwo == e || Gamethree == c) {
+      Userwon = (+1);
+    }
+    if (Gameone == e  || Gametwo == c || Gamethree == d) {
       Userwon = (+1);
     }
   }
