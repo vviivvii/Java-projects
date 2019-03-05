@@ -1,13 +1,15 @@
 void setup() {
   size(900,700);
-  snakeGUIsetup();
   movementSetup();
 }
 
 void draw(){
-    movementDraw();
+  snakeGUIsetup();
+  movementDraw();
+   
 
-  
+
+  kill();
   
 }
 
