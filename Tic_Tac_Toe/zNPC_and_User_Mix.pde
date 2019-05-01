@@ -78,6 +78,13 @@ void reset () {
     int NPCreset3 = int(random(9));
     println("User have won " + Userwon + " time");
     println("NPC have won " + NPCwon + " time");
+    
+      println (Gameone);
+      println (Gametwo);
+      println (Gamethree);
+      println (NPCGameOne);
+      println (NPCGameTwo);
+      println (NPCGameThree);
     if (NPCreset == z) {
       NPCGameOne = (0);
     }
