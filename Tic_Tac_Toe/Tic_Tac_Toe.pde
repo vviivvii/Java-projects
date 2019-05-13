@@ -11,7 +11,10 @@ void draw() {
 
   Usercode();
   NPCCode();
-  //println("NPC going to pick " + NPCGameOne);
+  //println("NPC going to pick (1)" + NPCGameOne);
+  //println("NPC going to pick (2)" + NPCGameTwo);
+  //println("NPC going to pick (3)" + NPCGameThree);
+
   mix();
   WinorLose();
 }
