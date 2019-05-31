@@ -5,112 +5,111 @@ void WinorLose () {
     //println (Gamethree);
     if (Gameone == z  || Gametwo == a || Gamethree == b) {
       Userwon = (+1);
-    } if (Gameone == a || Gametwo == b || Gamethree == z) {
+    } else if (Gameone == a || Gametwo == b || Gamethree == z) {
       Userwon = (+1);
-    }  if (Gameone == b  || Gametwo == z || Gamethree == a) {
+    } else if (Gameone == b  || Gametwo == z || Gamethree == a) {
       Userwon = (+1);
-    }  if (Gameone == z  || Gametwo == d || Gamethree == h) {
+    } else if (Gameone == z  || Gametwo == d || Gamethree == h) {
       Userwon = (+1);
-    }  if (Gameone == h  || Gametwo == z || Gamethree == d) {
+    } else if (Gameone == h  || Gametwo == z || Gamethree == d) {
       Userwon = (+1);
-    }  if (Gameone == d  || Gametwo == h || Gamethree == z) {
+    } else if (Gameone == d  || Gametwo == h || Gamethree == z) {
       Userwon = (+1);
-    }  if (Gameone == z  || Gametwo == c || Gamethree == f) {
+    } else if (Gameone == z  || Gametwo == c || Gamethree == f) {
       Userwon = (+1);
-    }  if (Gameone == c  || Gametwo == f || Gamethree == z) {
+    } else if (Gameone == c  || Gametwo == f || Gamethree == z) {
       Userwon = (+1);
-    }  if (Gameone == f  || Gametwo == z || Gamethree == c) {
+    } else if (Gameone == f  || Gametwo == z || Gamethree == c) {
       Userwon = (+1);
-    }  if (Gameone == z  || Gametwo == c || Gamethree == f) {
+    } else if (Gameone == z  || Gametwo == c || Gamethree == f) {
       Userwon = (+1);
-    }  if (Gameone == a  || Gametwo == d || Gamethree == g) {
+    } else if (Gameone == a  || Gametwo == d || Gamethree == g) {
       Userwon = (+1);
-    }  if (Gameone == d  || Gametwo == g || Gamethree == a) {
+    } else if (Gameone == d  || Gametwo == g || Gamethree == a) {
       Userwon = (+1);
-    }  if (Gameone == g  || Gametwo == a || Gamethree == d) {
+    } else if (Gameone == g  || Gametwo == a || Gamethree == d) {
       Userwon = (+1);
-    }  if (Gameone == b  || Gametwo == e || Gamethree == h) {
+    } else if (Gameone == b  || Gametwo == e || Gamethree == h) {
       Userwon = (+1);
-    }  if (Gameone == e  || Gametwo == h || Gamethree == b) {
+    } else if (Gameone == e  || Gametwo == h || Gamethree == b) {
       Userwon = (+1);
-    }  if (Gameone == h  || Gametwo == b || Gamethree == e) {
+    } else if (Gameone == h  || Gametwo == b || Gamethree == e) {
       Userwon = (+1);
-    }  if (Gameone == c  || Gametwo == d || Gamethree == e) {
+    } else if (Gameone == c  || Gametwo == d || Gamethree == e) {
       Userwon = (+1);
-    }  if (Gameone == d  || Gametwo == e || Gamethree == c) {
+    } else if (Gameone == d  || Gametwo == e || Gamethree == c) {
       Userwon = (+1);
-    }  if (Gameone == e  || Gametwo == c || Gamethree == d) {
+    } else if (Gameone == e  || Gametwo == c || Gamethree == d) {
       Userwon = (+1);
-    }  if (Gameone == f  || Gametwo == g || Gamethree == h) {
+    } else if (Gameone == f  || Gametwo == g || Gamethree == h) {
       Userwon = (+1);
-    }  if (Gameone == h  || Gametwo == f || Gamethree == g) {
+    } else if (Gameone == h  || Gametwo == f || Gamethree == g) {
       Userwon = (+1);
-    }  if (Gameone == g  || Gametwo == h || Gamethree == f) {
+    } else if (Gameone == g  || Gametwo == h || Gamethree == f) {
       Userwon = (+1);
-    }  if (Gameone == f  || Gametwo == d || Gamethree == b) {
+    } else if (Gameone == f  || Gametwo == d || Gamethree == b) {
       Userwon = (+1);
-    }  if (Gameone == d  || Gametwo == b || Gamethree == f) {
+    } else if (Gameone == d  || Gametwo == b || Gamethree == f) {
       Userwon = (+1);
-    }  if (Gameone == b  || Gametwo == f || Gamethree == d) {
+    } else if (Gameone == b  || Gametwo == f || Gamethree == d) {
       Userwon = (+1);
     }  //{
-      //println("Error");
+    //println("Error");
     //}
 
     //----------------------CPU-----------------------------
-    if (NPCGameOne == z  || NPCGameTwo == a || NPCGameThree == b) {
+    else if (NPCGameOne == z  || NPCGameTwo == a || NPCGameThree == b) {
       NPCwon = (+1);
-    }  if (NPCGameOne == a || NPCGameTwo == b || NPCGameThree == z) {
+    } else if (NPCGameOne == a || NPCGameTwo == b || NPCGameThree == z) {
       NPCwon = (+1);
-    }  if (NPCGameOne == b  || NPCGameTwo == z || NPCGameThree == a) {
+    } else if (NPCGameOne == b  || NPCGameTwo == z || NPCGameThree == a) {
       NPCwon = (+1);
-    }  if (NPCGameOne == z  || NPCGameTwo == d || NPCGameThree == h) {
+    } else if (NPCGameOne == z  || NPCGameTwo == d || NPCGameThree == h) {
       NPCwon = (+1);
-    }  if (NPCGameOne == h  || NPCGameTwo == z || NPCGameThree == d) {
+    } else if (NPCGameOne == h  || NPCGameTwo == z || NPCGameThree == d) {
       NPCwon = (+1);
-    }  if (NPCGameOne == d  || NPCGameTwo == h || NPCGameThree == z) {
+    } else if (NPCGameOne == d  || NPCGameTwo == h || NPCGameThree == z) {
       NPCwon = (+1);
-    }  if (NPCGameOne == z  || NPCGameTwo == c || NPCGameThree == f) {
+    } else if (NPCGameOne == z  || NPCGameTwo == c || NPCGameThree == f) {
       NPCwon = (+1);
-    }  if (NPCGameOne == c  || NPCGameTwo == f || NPCGameThree == z) {
+    } else if (NPCGameOne == c  || NPCGameTwo == f || NPCGameThree == z) {
       NPCwon = (+1);
-    }  if (NPCGameOne == f  || NPCGameTwo == z || NPCGameThree == c) {
+    } else if (NPCGameOne == f  || NPCGameTwo == z || NPCGameThree == c) {
       NPCwon = (+1);
-    }  if (NPCGameOne == z  || NPCGameTwo == c || NPCGameThree == f) {
+    } else if (NPCGameOne == z  || NPCGameTwo == c || NPCGameThree == f) {
       NPCwon = (+1);
-    }  if (NPCGameOne == a  || NPCGameTwo == d || NPCGameThree == g) {
+    } else if (NPCGameOne == a  || NPCGameTwo == d || NPCGameThree == g) {
       NPCwon = (+1);
-    }  if (NPCGameOne == d  || NPCGameTwo == g || NPCGameThree == a) {
+    } else if (NPCGameOne == d  || NPCGameTwo == g || NPCGameThree == a) {
       NPCwon = (+1);
-    }  if (NPCGameOne == g  || NPCGameTwo == a || NPCGameThree == d) {
+    } else if (NPCGameOne == g  || NPCGameTwo == a || NPCGameThree == d) {
       NPCwon = (+1);
-    } if (NPCGameOne == b  || NPCGameTwo == e || NPCGameThree == h) {
+    } else if (NPCGameOne == b  || NPCGameTwo == e || NPCGameThree == h) {
       NPCwon = (+1);
-    }  if (NPCGameOne == e  || NPCGameTwo == h || NPCGameThree == b) {
+    } else if (NPCGameOne == e  || NPCGameTwo == h || NPCGameThree == b) {
       NPCwon = (+1);
-    }  if (NPCGameOne == h  || NPCGameTwo == b || NPCGameThree == e) {
+    } else if (NPCGameOne == h  || NPCGameTwo == b || NPCGameThree == e) {
       NPCwon = (+1);
-    }  if (NPCGameOne == c  || NPCGameTwo == d || NPCGameThree == e) {
+    } else if (NPCGameOne == c  || NPCGameTwo == d || NPCGameThree == e) {
       NPCwon = (+1);
-    }  if (NPCGameOne == d  || NPCGameTwo == e || NPCGameThree == c) {
+    } else if (NPCGameOne == d  || NPCGameTwo == e || NPCGameThree == c) {
       NPCwon = (+1);
-    }  if (NPCGameOne == e  || NPCGameTwo == c || NPCGameThree == d) {
+    } else if (NPCGameOne == e  || NPCGameTwo == c || NPCGameThree == d) {
       NPCwon = (+1);
-    }  if (NPCGameOne == f  || NPCGameTwo == g || NPCGameThree == h) {
+    } else if (NPCGameOne == f  || NPCGameTwo == g || NPCGameThree == h) {
       NPCwon = (+1);
-    }  if (NPCGameOne == h  || NPCGameTwo == f || NPCGameThree == g) {
+    } else if (NPCGameOne == h  || NPCGameTwo == f || NPCGameThree == g) {
       NPCwon = (+1);
-    }  if (NPCGameOne == g  || NPCGameTwo == h || NPCGameThree == f) {
+    } else if (NPCGameOne == g  || NPCGameTwo == h || NPCGameThree == f) {
       NPCwon = (+1);
-    }  if (NPCGameOne == f  || NPCGameTwo == d || NPCGameThree == b) {
+    } else if (NPCGameOne == f  || NPCGameTwo == d || NPCGameThree == b) {
       NPCwon = (+1);
-    }  if (NPCGameOne == d  || NPCGameTwo == b || NPCGameThree == f) {
+    } else if (NPCGameOne == d  || NPCGameTwo == b || NPCGameThree == f) {
       NPCwon = (+1);
-    }  if (NPCGameOne == b  || NPCGameTwo == f || NPCGameThree == d) {
+    } else if (NPCGameOne == b  || NPCGameTwo == f || NPCGameThree == d) {
       NPCwon = (+1);
     }
-    {
-      //println("Error");
+      else{ println("Error");
     }
     //------------------------Tie---------------------------------
     if (NPCGameOne == Gameone || NPCGameTwo == Gametwo|| NPCGameThree == Gamethree) {

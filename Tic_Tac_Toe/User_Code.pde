@@ -1,13 +1,16 @@
 Boolean Playerpicked = false;
 Boolean Playerpickedagain = false;
 Boolean Playerpickedandagain = false;
+Boolean Playerpickedfour = false;
 Boolean NewGame = false;
 Boolean Roundtwo = false;
 Boolean Roundthree = false;
+Boolean Roundfour = false;
 int Background = 0;
 int Gameone = 10;
 int Gametwo = 10;
 int Gamethree = 10;
+int Gamefour = 10;
 
 void Usercode() {
   if (NewGame == true) {
@@ -297,6 +300,63 @@ void UsermouseClicked() {
       Gamethree = (8);
       image(X, width*8.5/16, height*9.55/16, width*1.5/16, width*1.5/16);
       //println(Gametwo);
+    }
+  }
+  //------------------------------------------Round-4------------------------------------------
+  if (Roundfour == true) {
+    if (mouseX>width*5.1/15 && mouseX<width*6.55/15 && mouseY>height*9.3/25 && mouseY<height*10.2/21) {
+      Playerpickedfour = true;
+      Gamefour = (0);
+      image(X, width*5.5/16, height*6/16, width*1.5/16, width*1.5/16);
+      //println(Gamethree);
+    }
+    if (mouseX>width*5.1/15 && mouseX<width*6.55/15 && mouseY>height*12.13/25 && mouseY<height*12.5/21) {
+      Playerpickedfour = true;
+      Gamefour = (1);
+      image(X, width*5.5/16, height*7.777/16, width*1.5/16, width*1.5/16);
+      //println(Gamethree);
+    }
+    if (mouseX>width*5.1/15 && mouseX<width*6.55/15 && mouseY>height*14.9/25 && mouseY<height*15.45/22) {
+      Playerpickedfour = true;
+      Gamefour = (2);
+      image(X, width*5.5/16, height*9.55/16, width*1.5/16, width*1.5/16);
+      //println(Gamethree);
+    }
+    if (mouseX>width*6.55/15 && mouseX<width*7.92/15 && mouseY>height*9.3/25 && mouseY<height*10.2/21) {
+      Playerpickedfour = true;
+      Gamefour = (3);
+      image(X, width*7/16, height*6/16, width*1.5/16, width*1.5/16);
+      //println(Gamethree);
+    }
+    if (mouseX>width*6.55/15 && mouseX<width*7.92/15 && mouseY>height*12.13/25 && mouseY<height*12.5/21) { //mid. 2
+      Playerpickedfour = true;
+      Gamefour = (4);
+      image(X, width*7/16, height*7.777/16, width*1.5/16, width*1.5/16);
+      //println(Gamethree);
+    }
+    if (mouseX>width*6.55/15 && mouseX<width*7.92/15 && mouseY>height*14.9/25 && mouseY<height*15.45/22) {
+      Playerpickedfour = true;
+      Gamefour = (5);
+      image(X, width*7/16, height*9.55/16, width*1.5/16, width*1.5/16);
+      //println(Gamethree);
+    }
+    if (mouseX>width*7.92/15 && mouseX<width*9.38/15 && mouseY>height*9.3/25 && mouseY<height*10.2/21) {
+      Playerpickedfour = true;
+      Gamefour = (6);
+      image(X, width*8.5/16, height*6/16, width*1.5/16, width*1.5/16);
+      //println(Gamethree);
+    }
+    if (mouseX>width*7.92/15 && mouseX<width*9.38/15 && mouseY>height*12.13/25 && mouseY<height*12.5/21) {
+      Playerpickedfour = true;
+      Gamefour = (7);
+      image(X, width*8.5/16, height*7.777/16, width*1.5/16, width*1.5/16);
+      //println(Gamethree);
+    }
+    if (mouseX>width*7.92/15 && mouseX<width*9.38/15 && mouseY>height*14.9/25 && mouseY<height*15.45/22) {
+      Playerpickedfour = true;
+      Gamefour = (8);
+      image(X, width*8.5/16, height*9.55/16, width*1.5/16, width*1.5/16);
+      //println(Gamethree);
     }
   }
 }

@@ -1,9 +1,11 @@
 Boolean mix = false;
 Boolean mixtwo = false;
 Boolean mixthree = false;
+Boolean mixfour = false;
 Boolean ready = false;
 Boolean readyup = false;
 Boolean readyupagain = false;
+Boolean readyupfour = false;
 int Userwon = 0;
 int NPCwon = 0;
 void mix () {
@@ -69,6 +71,37 @@ void mix () {
   } else {
     readyupagain = true;
   }
+  if ( mixfour == true);
+  if (NPCGameOne == NPCGameFour) {
+    NPCGameFour = (+1);
+  } else if (NPCGameFour == i) {
+    NPCGameThree = (-1);
+  } else if (NPCGameFour == NPCGameTwo) {
+    NPCGameFour = (-1);
+  } else if (NPCGameOne == NPCGameThree) {
+    NPCGameFour = (-1);
+  } else if (Gamethree == NPCGameThree) {
+    NPCGameFour = int(random(9));
+  } else if (NPCGameOne == NPCGameThree) {
+    NPCGameFour = (+1);
+  } else if (NPCGameThree == i) {
+    NPCGameFour = (-1);
+  } else if (NPCGameThree == NPCGameTwo) {
+    NPCGameFour = (-1);
+  } else if (NPCGameOne == NPCGameThree) {
+    NPCGameFour = (-1);
+  } else if (Gametwo == NPCGameThree) {
+    NPCGameFour = (+1);
+  } else if (NPCGameThree == i ) {
+  } else if (Gameone == NPCGameThree) {
+    NPCGameFour = (+1);
+  } else if (NPCGameThree == i ) {
+    NPCGameFour = (-2); 
+    readyupfour = true;
+    mixfour = false;
+  } else {
+    readyupfour = true;
+  }
 }
 
 void reset () {
@@ -79,12 +112,12 @@ void reset () {
     println("User have won " + Userwon + " time");
     println("NPC have won " + NPCwon + " time");
     
-      println (Gameone);
-      println (Gametwo);
-      println (Gamethree);
-      println (NPCGameOne);
-      println (NPCGameTwo);
-      println (NPCGameThree);
+      //println (Gameone);
+      //println (Gametwo);
+      //println (Gamethree);
+      //println (NPCGameOne);
+      //println (NPCGameTwo);
+      //println (NPCGameThree);
     if (NPCreset == z) {
       NPCGameOne = (0);
     }
