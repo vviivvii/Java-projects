@@ -1,11 +1,12 @@
-int NPCGameOne = int(random(9)); // Change for the random
-int NPCGameTwo = int(random(9));
-int NPCGameThree = int(random(9));
-int NPCGameFour = int(random(9));
+//int NPCGameOne = int(random(9)); // Change for the random
+//int NPCGameTwo = int(random(9));
+//int NPCGameThree = int(random(9));
+//int NPCGameFour = int(random(9));
 Boolean WinorLose = false;
-//int NPCGameOne = 0;
-//int NPCGameTwo = 4;
-//int NPCGameThree = 8;
+int NPCGameOne = 0;
+int NPCGameTwo = 4;
+int NPCGameThree = 5;
+int NPCGameFour = 2;
 
 void NPCCode() {
   if (Playerpicked == true) {
@@ -196,9 +197,7 @@ void NPCCode() {
   //Round 4
   if (Playerpickedfour == true) {
     mixfour = true;
-    //println("NPC " + NPCGameTwo); //For testing
-    //println("User " + Gametwo);
-    if (readyupagain == true) {
+    if (readyupfour == true) {
       if ( NPCGameFour == z) {
         image(O, width*5.5/16, height*6/16, width*1.5/16, width*1.5/16);
         readyupagain = false;

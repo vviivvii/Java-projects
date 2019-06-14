@@ -78,24 +78,26 @@ void mix () {
     NPCGameThree = (-1);
   } else if (NPCGameFour == NPCGameTwo) {
     NPCGameFour = (-1);
-  } else if (NPCGameOne == NPCGameThree) {
+  } else if (NPCGameOne == NPCGameFour) {
     NPCGameFour = (-1);
-  } else if (Gamethree == NPCGameThree) {
+  } else if (Gamefour == NPCGameFour) {
     NPCGameFour = int(random(9));
-  } else if (NPCGameOne == NPCGameThree) {
+  } else if (NPCGameOne == NPCGameFour) {
     NPCGameFour = (+1);
-  } else if (NPCGameThree == i) {
+  } else if (NPCGameFour == i) {
     NPCGameFour = (-1);
-  } else if (NPCGameThree == NPCGameTwo) {
+  } else if (NPCGameFour == NPCGameTwo) {
     NPCGameFour = (-1);
-  } else if (NPCGameOne == NPCGameThree) {
+  } else if (NPCGameOne == NPCGameFour) {
     NPCGameFour = (-1);
-  } else if (Gametwo == NPCGameThree) {
-    NPCGameFour = (+1);
-  } else if (NPCGameThree == i ) {
-  } else if (Gameone == NPCGameThree) {
+  } else if (Gametwo == NPCGameFour) {
     NPCGameFour = (+1);
   } else if (NPCGameThree == i ) {
+  } else if (Gameone == NPCGameFour) {
+    NPCGameFour = (+1);}
+    else if (Gamethree == NPCGameFour) {
+    NPCGameFour = (+1);
+  } else if (NPCGameFour == i ) {
     NPCGameFour = (-2); 
     readyupfour = true;
     mixfour = false;
