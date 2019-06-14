@@ -1,4 +1,4 @@
 void snakeGUIsetup() {
-  rect(width*1/5, height*1/9, width*1/9, height*12/16);
+  rect(width*1/5, height*1/9, width*1/5, height*12/16);
 
 }
