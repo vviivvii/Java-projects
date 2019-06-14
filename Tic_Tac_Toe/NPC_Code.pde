@@ -1,10 +1,11 @@
-//int NPCGameOne = int(random(9)); // Change for the random
-//int NPCGameTwo = int(random(9));
-//int NPCGameThree = int(random(9));
+int NPCGameOne = int(random(9)); // Change for the random
+int NPCGameTwo = int(random(9));
+int NPCGameThree = int(random(9));
+int NPCGameFour = int(random(9));
 Boolean WinorLose = false;
-int NPCGameOne = 3;
-int NPCGameTwo = 6;
-int NPCGameThree = 8;
+//int NPCGameOne = 0;
+//int NPCGameTwo = 4;
+//int NPCGameThree = 8;
 
 void NPCCode() {
   if (Playerpicked == true) {
@@ -188,6 +189,68 @@ void NPCCode() {
         image(O, width*8.5/16, height*9.55/16, width*1.5/16, width*1.5/16);
         readyup = false;
         Roundthree = false;
+        WinorLose = true;
+      }
+    }
+  }
+  //Round 4
+  if (Playerpickedfour == true) {
+    mixfour = true;
+    //println("NPC " + NPCGameTwo); //For testing
+    //println("User " + Gametwo);
+    if (readyupagain == true) {
+      if ( NPCGameFour == z) {
+        image(O, width*5.5/16, height*6/16, width*1.5/16, width*1.5/16);
+        readyupagain = false;
+        Roundfour = false;
+        WinorLose = true;
+      }
+      if (NPCGameFour == a ) {
+        image(O, width*5.5/16, height*7.777/16, width*1.5/16, width*1.5/16);
+        readyupagain = false;
+        Roundfour = false;
+        WinorLose = true;
+      }
+      if (NPCGameFour == b ) {
+        image(O, width*5.5/16, height*9.55/16, width*1.5/16, width*1.5/16);
+        readyupagain = false;
+        Roundfour = false;
+        WinorLose = true;
+      }
+      if (NPCGameFour == c ) {
+        image(O, width*7/16, height*6/16, width*1.5/16, width*1.5/16);
+        readyupagain = false;
+        Roundfour = false;
+        WinorLose = true;
+      }
+      if (NPCGameFour == d ) {
+        image(O, width*7/16, height*7.777/16, width*1.5/16, width*1.5/16);
+        readyupagain = false;
+        Roundfour = false;
+        WinorLose = true;
+      }
+      if (NPCGameFour == e ) {
+        image(O, width*7/16, height*9.55/16, width*1.5/16, width*1.5/16);
+        readyupagain = false;
+        Roundfour = false;
+        WinorLose = true;
+      }
+      if (NPCGameFour == f ) {
+        image(O, width*8.5/16, height*6/16, width*1.5/16, width*1.5/16);
+        readyupagain = false;
+        Roundfour = false;
+        WinorLose = true;
+      }
+      if (NPCGameFour == g ) {
+        image(O, width*8.5/16, height*7.777/16, width*1.5/16, width*1.5/16);
+        readyupagain = false;
+        Roundfour = false;
+        WinorLose = true;
+      }
+      if (NPCGameFour == h ) {
+        image(O, width*8.5/16, height*9.55/16, width*1.5/16, width*1.5/16);
+        readyupagain = false;
+        Roundfour = false;
         WinorLose = true;
       }
     }
