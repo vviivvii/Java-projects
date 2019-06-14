@@ -6,10 +6,10 @@ void setup() {
 void draw(){
   snakeGUIsetup();
   movementDraw();
-   
-
-
+  
   kill();
+  
+  checkOutOfBound();
   
 }
 
